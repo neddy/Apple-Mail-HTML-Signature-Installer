@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>428</string>
+	<key>AMApplicationVersion</key>
+	<string>2.7</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.2.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>defaultLocation</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<true/>
+						<key>variableUUIDsInMenu</key>
+						<array/>
+					</dict>
+					<key>granularity</key>
+					<dict/>
+					<key>multipleSelection</key>
+					<dict/>
+					<key>promptMessage</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>Choose a Finder Item:</string>
+						</array>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Ask for Finder Items.action</string>
+				<key>ActionName</key>
+				<string>Ask for Finder Items</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>defaultLocation</key>
+					<string>~/Desktop</string>
+					<key>granularity</key>
+					<integer>0</integer>
+					<key>multipleSelection</key>
+					<false/>
+					<key>promptMessage</key>
+					<string>Choose a Finder Item:</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.AskForFinderItems</string>
+				<key>CFBundleVersion</key>
+				<string>1.2.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryFilesAndFolders</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMAskForFinderItemsAction</string>
+				<key>InputUUID</key>
+				<string>9233B268-99AA-4818-A649-636477D0F8C8</string>
+				<key>Keywords</key>
+				<array>
+					<string>Find</string>
+					<string>Item</string>
+					<string>File</string>
+					<string>Folder</string>
+					<string>Ask</string>
+					<string>Choose</string>
+					<string>Prompt</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>EF7254BB-9774-4E20-9042-A5848E5937B4</string>
+				<key>UUID</key>
+				<string>21CF00E2-A327-496D-BA1F-CCE4F84BF51D</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>multipleSelection</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>granularity</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string>~/Desktop</string>
+						<key>name</key>
+						<string>defaultLocation</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string>Choose a Finder Item:</string>
+						<key>name</key>
+						<string>promptMessage</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>574.000000:278.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.3</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>Run Shell Script</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>import os
+import glob
+from os.path import expanduser
+import sys
+import time
+
+# Get input file
+for f in sys.argv[1:]:
+    inputfile = f
+
+    # Get users home folder
+    home = expanduser("~")
+
+    # Test to see which signature folder to use, depending on OS version
+    if os.path.exists('{}/Library/Mail/V4/MailData/Signatures/'.format(home)):
+        signatures_folder = ('/Library/Mail/V4/MailData/Signatures/')
+    elif os.path.exists('{}/Library/Mail/V3/MailData/Signatures/'.format(home)):
+        signatures_folder = ('/Library/Mail/V3/MailData/Signatures/')
+    elif os.path.exists('{}/Library/Mail/V2/MailData/Signatures/'.format(home)):
+        signatures_folder = ('/Library/Mail/V2/MailData/Signatures/')
+    else:
+        print("No Mail Signature folder found! Something is wrong...")
+        sys.exit(2)
+
+    #Get list of files in 'Signature folder'
+    list_of_files = glob.glob('{}{}*.mailsignature'.format(home, signatures_folder))
+
+    # Get last edited file in signatures folder
+    latest_signature = max(list_of_files, key=os.path.getctime)
+    print(latest_signature)
+
+    # Get html signature from input file
+    f = open(inputfile, 'r')
+    html_signature = f.read()
+    f.close()
+
+    # Create backup of current mail signature
+    f = open(latest_signature, 'r')
+    current_signature = f.read()
+    f.close()
+    f = open('{}.{}.old'.format(latest_signature, time.strftime("%Y.%m.%d.%H%M%S")), 'w')
+    f.write(current_signature)
+    f.close()
+
+    # Read first 5 lines of current signature from mail directory
+    with open(latest_signature) as myfile:
+        new_signature = [next(myfile) for x in xrange(5)]
+    new_signature = ''.join(map(str, new_signature))  # Create string from list of first 5 lines read from file
+    new_signature = new_signature + '\n' + html_signature  # Append html for first 5 lines of signature
+    print(new_signature)
+
+    # Unlock current signature incase it's locked from a previous edit...
+    os.system("chflags nouchg {}".format(latest_signature))
+
+    # Write new signature to disk, this will overwrite the current one.
+    wr = open(latest_signature, 'w')
+    wr.write(new_signature)
+    wr.close()
+
+    os.system("chflags uchg {}".format(latest_signature))</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>1</integer>
+					<key>shell</key>
+					<string>/usr/bin/python</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.3</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>InputUUID</key>
+				<string>93171ED4-9364-4620-BC07-C47FFD2CD524</string>
+				<key>Keywords</key>
+				<array>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>11D5F412-82A8-465A-94CA-8B36E1042B71</string>
+				<key>UUID</key>
+				<string>B56187BD-9FA2-4F84-BDAA-9C20A83A127E</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>574.000000:461.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>affirmativeTitle</key>
+					<dict/>
+					<key>displayWarning</key>
+					<dict/>
+					<key>explanationText</key>
+					<dict/>
+					<key>negativeTitle</key>
+					<dict/>
+					<key>questionText</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>Signature Installed</string>
+						</array>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Ask for Confirmation.action</string>
+				<key>ActionName</key>
+				<string>Ask for Confirmation</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>affirmativeTitle</key>
+					<string>OK</string>
+					<key>displayWarning</key>
+					<false/>
+					<key>explanationText</key>
+					<string>Press the ok button…</string>
+					<key>negativeTitle</key>
+					<string>-</string>
+					<key>questionText</key>
+					<string>Signature Installed</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Ask for Confirmation</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMAskForConfirmationAction</string>
+				<key>IgnoresInput</key>
+				<false/>
+				<key>InputUUID</key>
+				<string>360502A3-71E9-4B0F-881F-7696E8928055</string>
+				<key>Keywords</key>
+				<array>
+					<string>Message</string>
+					<string>Ask</string>
+					<string>Display</string>
+					<string>Prompt</string>
+					<string>Show</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>D12E7C0C-F050-4284-BC97-FD728E415B3F</string>
+				<key>UUID</key>
+				<string>47E42235-0493-4E95-8D31-A92A3C7C5C64</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>questionText</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>displayWarning</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>explanationText</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string>OK</string>
+						<key>name</key>
+						<string>affirmativeTitle</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>Cancel</string>
+						<key>name</key>
+						<string>negativeTitle</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>574.000000:710.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Ask for Confirmation.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>2086B0FC-7CD6-44A3-B99F-A4797ECCC9A0</key>
+		<dict>
+			<key>from</key>
+			<string>B56187BD-9FA2-4F84-BDAA-9C20A83A127E - B56187BD-9FA2-4F84-BDAA-9C20A83A127E</string>
+			<key>to</key>
+			<string>47E42235-0493-4E95-8D31-A92A3C7C5C64 - 47E42235-0493-4E95-8D31-A92A3C7C5C64</string>
+		</dict>
+		<key>81B31A1D-71AB-41BA-8EF1-3400C16B46CC</key>
+		<dict>
+			<key>from</key>
+			<string>21CF00E2-A327-496D-BA1F-CCE4F84BF51D - 21CF00E2-A327-496D-BA1F-CCE4F84BF51D</string>
+			<key>to</key>
+			<string>B56187BD-9FA2-4F84-BDAA-9C20A83A127E - B56187BD-9FA2-4F84-BDAA-9C20A83A127E</string>
+		</dict>
+	</dict>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.application</string>
+	</dict>
+</dict>
+</plist>
