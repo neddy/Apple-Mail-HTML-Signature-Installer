@@ -1,3 +1,5 @@
+**As of 10.12 you no longer need this script to install an html signature, just copy and paste it in**
+
 # Apple Mail HTML Signature Installer
 
 A simple script written in Python to install HTML signatures in Apple Mail. There are two Python files, 'signature_installer.py' can be used in the command line, and 'signature_installer_automator' is the Python code used in the Automator app. There is also an Automator App included, this is simply an Automator app that asks for your HTML signature file and passes it to the Python script to install it.
